@@ -10,6 +10,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '.
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from '../../components/ui/dialog';
 import { User, Mail, Briefcase, Edit, Lock, HelpCircle, LogOut } from 'lucide-react';
 import { toast } from 'sonner';
+// import { toast } from 'sonner';
 
 const ManagerProfile = () => {
   const navigate = useNavigate();
