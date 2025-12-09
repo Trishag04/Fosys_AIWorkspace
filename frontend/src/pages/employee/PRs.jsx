@@ -7,12 +7,12 @@ import { GitPullRequest, Info, Plus, CheckCircle, XCircle, Clock } from 'lucide-
 import { toast } from 'sonner';
 
 const EmployeePRs = () => {
-  const prList = [
-    { id: 1, task: 'Fix login bug', prId: '#145', status: 'Open', updated: '2 hours ago' },
-    { id: 2, task: 'API docs update', prId: '#142', status: 'In Review', updated: '5 hours ago' },
-    { id: 3, task: 'Profile page', prId: '#138', status: 'Approved', updated: '1 day ago' },
-    { id: 4, task: 'CSS fixes', prId: '#135', status: 'Merged', updated: '2 days ago' },
-  ];
+  // const prList = [
+  //   { id: 1, task: 'Fix login bug', prId: '#145', status: 'Open', updated: '2 hours ago' },
+  //   { id: 2, task: 'API docs update', prId: '#142', status: 'In Review', updated: '5 hours ago' },
+  //   { id: 3, task: 'Profile page', prId: '#138', status: 'Approved', updated: '1 day ago' },
+  //   { id: 4, task: 'CSS fixes', prId: '#135', status: 'Merged', updated: '2 days ago' },
+  // ];
 
   const insights = {
     waitingReview: 2,
