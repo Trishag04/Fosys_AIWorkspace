@@ -11,7 +11,7 @@ const config = {
 
 // Conditionally load visual editing modules only if enabled
 let babelMetadataPlugin;
-let setupDevServer;
+// let setupDevServer;
 
 if (config.enableVisualEdits) {
   babelMetadataPlugin = require("./plugins/visual-edits/babel-metadata-plugin");
